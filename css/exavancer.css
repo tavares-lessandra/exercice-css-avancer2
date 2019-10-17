@@ -1,3 +1,61 @@
 html, body{
-background-color: aquamarine;
+background-color: rgb(123, 138, 133);
 }
+
+
+.align{
+
+    padding: 0 6px;
+    float: left;
+  width: 20%;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+h3{
+  text-align: center;
+  color: blue
+}
+
+.align{
+  background-color: white;
+}
+    
+.ph{
+  padding: 50px;
+
+}
+
+.align{
+  cursor: pointer;
+  perspective: 1000;
+
+}
+
+.carte{
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  position: absolute;
+  width: 20%;
+  height: 100%;
+
+}
+.carte:hover{
+  transform: rotateY(180deg);
+}
+
+.front{
+  backface-visibility: hidden;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  background: white;
+
+}
+.verso{
+  background: white;
+  color: blue;
+  text-align: center;
+  transform: rotateY(180deg);
+  height: 50%;  
+}
+
